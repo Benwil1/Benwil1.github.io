@@ -108,7 +108,7 @@ input[type="submit"] {
   a:active {
     color: white;
   }
-@media (min-width : 500px){ 
+@media (min-width : 200px){ 
     body {
       
       background-image: url(https://c0.wallpaperflare.com/preview/522/913/316/people-write-notebook-diary.jpg);
