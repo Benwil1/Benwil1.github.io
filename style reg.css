@@ -27,8 +27,8 @@ form{
 width: 60vw;
 margin: 0 auto;
 padding: 2rem;
-max-width: 500px;
-min-width: 300px;
+max-width:80%;
+min-width: 10%
 }
 .field{
 font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
@@ -51,7 +51,7 @@ margin-left: auto;
 margin-right: auto;
 width: 80%;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-max-width: 300px; /*set the background image/color width*/
+max-width: 750px; /*set the background image/color width*/
 
 }
 /*the removes the border and add bottom line to every fieldset*/
