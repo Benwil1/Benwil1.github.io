@@ -108,3 +108,11 @@ input[type="submit"] {
   a:active {
     color: white;
   }
+@media (min-width : 500px){ 
+	.menu {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width:auto;
+	}
+}
