@@ -21,13 +21,13 @@
 		<form id="survey-form" method="post" class="field ">
 			<fieldset >
 				<label for="Name" id="name-label">
-					 Name <strong class="red"> * </strong> <input class="arrange" id="name"type="text" name="name" placeholder="Enter your Name" required>
+					 Name <strong class="red"> * </strong> <input class="arrange curve" id="name"type="text" name="name" placeholder="Enter your Name" required>
 				</label><br>
 				<label for="email" id="email-label">
-					Email Address <strong class="red"> * </strong> <input class="arrange" id="email" type="email" name="email" placeholder="Enter your email address" required >
+					Email Address <strong class="red"> * </strong> <input class="arrange curve" id="email" type="email" name="email" placeholder="Enter your email address" required >
 				</label>
 				<label for="number" id="number-label">
-					Age(Optional) <input class="arrange" id="number" type="number" name="age" placeholder="Age" min="10" max="99">
+					Age(Optional) <input class="arrange curve" id="number" type="number" name="age" placeholder="Age" min="10" max="99">
 				</label>
 			</fieldset>
 
@@ -35,7 +35,7 @@
 				
 				<label for="dropdown"> Select Your Faculty <strong class="red"> * </strong>
 
-				    <select id="dropdown" name="faculty" class="arrange" required>
+				    <select id="dropdown" name="faculty" class="arrange curve" required>
 						
 						<option value="">(Select one)</option>
 						<option value="1">faculty of Engineering</option>
@@ -58,7 +58,7 @@
 			<fieldset >
 				<label > Which Academic Year Past Question Do You Need ?<strong class="red"> * </strong></label>
 					
-					<label for="Academic year" type="checkbox"> <input value="Academic year" type="checkbox" name="Year" > First Year </label>
+					<label for="Academic year" type="checkbox"> <input class="curve" value="Academic year" type="checkbox" name="Year" > First Year </label>
 
 					<label for="Academic year" type="checkbox"> <input value="Academic year" type="checkbox" name="Year" > Second Year</label>
 
@@ -77,7 +77,7 @@
 			<fieldset>
 				<label for="dropdown">
 					What Is Your Highest Qualification ?<strong class="red"> * </strong>
-					<select id="dropdown" name="grade" class="arrange" required>
+					<select id="dropdown" name="grade" class="arrange curve" required>
 						<option value="">(Select one)</option>
 						<option value="1">Doctorate</option>
 						<option value="2">Masters</option>
@@ -95,10 +95,10 @@
 			<fieldset>
 				
 				<label>Any Addition Info?</label>
-				<label for="bio"  > <textarea id="bio" type="text" placeholder="i am currently...." rows="3" cols="15"></textarea></label>
+				<label for="bio"  > <textarea class="curve" id="bio" type="text" placeholder="i am currently...." rows="3" cols="15"></textarea></label>
 			</fieldset>
 
-			<input type="submit" id="submit"/>
+			<input class="curve" type="submit" id="submit"/>
 
 		</form>
 		</div>
